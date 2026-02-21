@@ -1,1 +1,11 @@
 console.log("Hello, World! This is a demo test.");
+let x = 10;
+console.log("The value of x is: " + x);
+x += 5;
+console.log("After adding 5, the value of x is: " + x); 
+x *= 2;
+console.log("After multiplying by 2, the value of x is: " + x);
+x -= 4;
+console.log("After subtracting 4, the value of x is: " + x);
+x /= 2;
+console.log("After dividing by 2, the value of x is: " + x);    
