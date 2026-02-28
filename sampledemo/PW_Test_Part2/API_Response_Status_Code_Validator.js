@@ -1,14 +1,14 @@
 // As an SDET, you receive an API response status code and need to classify it. Write a JavaScript program using a switch statement that takes an HTTP status code stored in a variable and prints the category and a QA-friendly message.
 
-let statusCode = 200;
+let statusCode = 401;
 switch (true) {
     case (statusCode === 200 ):
         console.log("OK: Request successful");
         break;
-    case (statuscode === 201):
+    case (statusCode === 201):
         console.log("Created: Resource created successfully");
         break;
-    case (statuscode === 301):
+    case (statusCode === 301):
         console.log("WARNING - Moved Permanently: URL has changed"); 
         break;
     case (statusCode === 400):
